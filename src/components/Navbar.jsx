@@ -12,18 +12,21 @@ const Navbar = () => {
         <Link to='/' className='logo'>
           <img src={Logo} alt='Nav Logo' />
         </Link>
+
         <ul className='nav__links'>
           {links.map(({ name, path }, index) => {
             return (
               <li key={index}>
-                <NavLink to={path}>{name}</NavLink>
+                <NavLink
+                  to={path}
+                  className={({ isActive }) => (isActive ? 'active-nav' : '')}
+                >
+                  {name}
+                </NavLink>
               </li>
             )
           })}
         </ul>
-        <button className='nav__toggle-btn'>
-          <FaBars />
-        </button>
       </div>
     </nav>
   )
