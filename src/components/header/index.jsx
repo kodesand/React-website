@@ -20,10 +20,9 @@ const MainHeader = () => {
           </Link>
         </div>
         <div className='main__header-right'>
-          <div className='main__header-circle'>
-            <div className='main__header-image'>
-              <img src={Image} alt='main header image' />
-            </div>
+          <div className='main__header-circle'></div>
+          <div className='main__header-image'>
+            <img src={Image} alt='main header image' />
           </div>
         </div>
       </div>

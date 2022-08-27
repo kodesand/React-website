@@ -1,4 +1,6 @@
-import Header from './../../components/MainHeader'
+import Header from './../../components/header'
+
+import './home.css'
 
 const Home = () => {
   return (
