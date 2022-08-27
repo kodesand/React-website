@@ -27,6 +27,9 @@ const Navbar = () => {
             )
           })}
         </ul>
+        <button className='nav__toggle-btn'>
+          <FaBars />
+        </button>
       </div>
     </nav>
   )
