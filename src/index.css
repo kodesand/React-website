@@ -90,3 +90,18 @@ img {
 .btn.sm:hover {
   background-color: var(--color-gray-400);
 }
+
+/* section */
+
+section {
+  margin-top: 10rem;
+}
+
+.section__head {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 4rem;
+  color: var(--color-secondary);
+  font-size: 1.5rem;
+}
