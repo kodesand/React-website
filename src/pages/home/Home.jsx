@@ -1,6 +1,7 @@
 import MainHeader from '@/components/Header'
 import Programs from '@/components/Programs'
 import Values from '@/components/Values'
+import FAQs from '@/components/FAQs/index'
 
 import './home.css'
 
@@ -10,6 +11,7 @@ const Home = () => {
       <MainHeader />
       <Programs />
       <Values />
+      <FAQs />
     </>
   )
 }

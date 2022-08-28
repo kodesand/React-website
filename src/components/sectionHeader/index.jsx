@@ -1,8 +1,8 @@
-import React from 'react'
+import './style.css'
 
 const SectionHeader = ({ icon, title, className }) => {
   return (
-    <div className={`section__head ${className}`}>
+    <div className={`section__header ${className}`}>
       <span>{icon} </span>
       <h2>{title}</h2>
     </div>
