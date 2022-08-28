@@ -1,7 +1,7 @@
 import './style.css'
 
-const Card = ({ classname, children }) => {
-  return <article className={`card ${classname}`}>{children}</article>
+const Card = ({ className, children }) => {
+  return <article className={`card ${className}`}>{children}</article>
 }
 
 export default Card

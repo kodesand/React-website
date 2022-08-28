@@ -1,5 +1,6 @@
-import MainHeader from '@/components/header'
-import Programs from '@/components/programs'
+import MainHeader from '@/components/Header'
+import Programs from '@/components/Programs'
+import Values from '@/components/Values'
 
 import './home.css'
 
@@ -8,6 +9,7 @@ const Home = () => {
     <>
       <MainHeader />
       <Programs />
+      <Values />
     </>
   )
 }
