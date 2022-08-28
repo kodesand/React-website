@@ -1,11 +1,13 @@
-import Header from './../../components/header'
+import MainHeader from '@/components/header'
+import Programs from '@/components/programs'
 
 import './home.css'
 
 const Home = () => {
   return (
     <>
-      <Header />
+      <MainHeader />
+      <Programs />
     </>
   )
 }
