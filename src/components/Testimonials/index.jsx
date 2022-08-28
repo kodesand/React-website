@@ -6,7 +6,7 @@ import {
 } from 'react-icons/io'
 
 import SectionHeader from '@/components/SectionHeader'
-import Card from '@/UI/card/index'
+import Card from '@/UI/card'
 
 import data from './data.js'
 import './style.css'
@@ -18,7 +18,11 @@ const Testimonials = () => {
   return (
     <section className='testimonials'>
       <div className='container testimonials__container'>
-        <SectionHeader icon={<ImQuotesLeft />} title='Testimonials' />
+        <SectionHeader
+          icon={<ImQuotesLeft />}
+          title='Testimonials'
+          className='testimonials__head'
+        />
         <Card className='testimonial'>
           <div className='testimonial__avatar'>
             <img src={avatar} alt={name} />
@@ -28,8 +32,12 @@ const Testimonials = () => {
           <small className='testimonial__title'>{job}</small>
         </Card>
         <div className='testimonials__btn-container'>
-          <IoIosArrowDropleftCircle />
-          <IoIosArrowDroprightCircle />
+          <button className='testimonials__btn'>
+            <IoIosArrowDropleftCircle />
+          </button>
+          <button className='testimonials__btn'>
+            <IoIosArrowDroprightCircle />
+          </button>
         </div>
       </div>
     </section>
