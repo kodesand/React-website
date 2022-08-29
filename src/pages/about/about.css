@@ -38,17 +38,31 @@
 @media screen and (max-width: 1024px) {
   .about__section-image {
     width: 60%;
+    margin-inline: auto;
   }
   .about__section-content h1 {
     margin-bottom: 1.2rem;
   }
   .about__story-container,
   .about__mission-container,
-  ..about__vision-container {
+  .about__vision-container {
     grid-template-columns: 1fr;
     gap: 3rem;
   }
   .about__vision .about__section-image {
     grid-row: 1;
+  }
+}
+
+/* media queries (small screens */
+@media screen and (max-width: 600px) {
+  .about__section-image {
+    width: 80%;
+    margin-inline: auto;
+  }
+  .about__story-container,
+  .about__mission-container,
+  .about__vision-container {
+    gap: 2rem;
   }
 }
