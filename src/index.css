@@ -90,9 +90,27 @@ img {
 .btn.sm:hover {
   background-color: var(--color-gray-400);
 }
-
-/* section */
-
 section {
   margin-top: 10rem;
+}
+
+/* media queries (medium screens) */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.6rem;
+  }
+}
+
+/* media queries (small screens) */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.2.2rem;
+    line-height: 1.3;
+  }
 }
