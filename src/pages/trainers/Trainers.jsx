@@ -19,7 +19,20 @@ const Trainers = () => {
       <section className='trainers'>
         <div className='container trainers__container'>
           {trainers.map(({ id, image, name, job, socials }) => {
-            return <Trainer key={id}></Trainer>
+            return (
+              <Trainer
+                key={id}
+                image={image}
+                name={name}
+                job={job}
+                socials={[
+                  { icon: <BsInstagram />, link: socials[0] },
+                  { icon: <AiOutlineTwitter />, link: socials[1] },
+                  { icon: <FaFacebookF />, link: socials[2] },
+                  { icon: <FaLinkedinIn />, link: socials[3] },
+                ]}
+              ></Trainer>
+            )
           })}
         </div>
       </section>

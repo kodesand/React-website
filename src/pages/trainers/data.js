@@ -1,9 +1,9 @@
-const Trainer1 = './images/trainer1.jpg'
-const Trainer2 = './images/trainer2.jpg'
-const Trainer3 = './images/trainer3.jpg'
-const Trainer4 = './images/trainer4.jpg'
-const Trainer5 = './images/trainer5.jpg'
-const Trainer6 = './images/trainer6.jpg'
+const Trainer1 = '/images/trainer1.jpg'
+const Trainer2 = '/images/trainer2.jpg'
+const Trainer3 = '/images/trainer3.jpg'
+const Trainer4 = '/images/trainer4.jpg'
+const Trainer5 = '/images/trainer5.jpg'
+const Trainer6 = '/images/trainer6.jpg'
 
 const trainers = [
   {
