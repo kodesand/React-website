@@ -39,6 +39,7 @@
   height: 25rem;
   background: linear-gradient(75deg, var(--color-secondary), transparent);
   border-radius: 50%;
+  filter: blur(15px);
   position: absolute;
   transition: var(--transition);
 }
@@ -46,9 +47,9 @@
   position: relative;
 }
 
-.main__header-right:hover .main__header-circle {
+/* .main__header-right:hover .main__header-circle {
   filter: blur(15px);
-}
+} */
 
 /* media queries (medium screens) */
 @media screen and (max-width: 1024px) {
