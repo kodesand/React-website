@@ -1,5 +1,7 @@
 import Card from '@/UI/card'
 
+import './style.css'
+
 const Trainer = ({ image, name, job, socials }) => {
   return (
     <Card className='trainer'>
