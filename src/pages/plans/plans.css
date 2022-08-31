@@ -17,6 +17,25 @@
   display: inline;
 }
 
+.plan h2 {
+  display: inline;
+  color: var(--color-gray-400);
+}
+
+.plan p {
+  margin-top: 1rem;
+  color: var(--color-gray-100);
+}
+
+.plan p.disabled {
+  color: var(--color-gray-400);
+}
+
+.plan button {
+  margin-top: 3rem;
+  cursor: pointer;
+}
+
 /* media queries (medium screens) */
 @media screen and (max-width: 1024px) {
   .plans__container {
