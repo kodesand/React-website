@@ -1,31 +1,36 @@
 // import { SiOpenaigym } from 'react-icons/si'
 
+const catchBag = '/images/catch-cock.png'
+const tariCase = '/images/tari-case.png'
+const takera = '/images/takera.png'
+const tariSheath = '/images/tari-sheath.png'
+
 const programs = [
   {
     id: 1,
-    // icon: <SiOpenaigym />,
-    title: 'Program One',
+    image: catchBag,
+    title: 'Catch Bag',
     info: 'This is the day that the lord has made. We will rejoice!',
     path: '/programs/111',
   },
   {
     id: 2,
-    // icon: <SiOpenaigym />,
-    title: 'Program Two',
+    image: tariCase,
+    title: 'Tari Case',
     info: 'This is the day that the lord has made. We will rejoice!',
     path: '/programs/222',
   },
   {
     id: 3,
-    // icon: <SiOpenaigym />,
-    title: 'Program Three',
+    image: takera,
+    title: 'Takera',
     info: 'This is the day that the lord has made. We will rejoice!',
     path: '/programs/333',
   },
   {
     id: 4,
-    // icon: <SiOpenaigym />,
-    title: 'Program Four',
+    image: tariSheath,
+    title: 'Tari Sheath',
     info: 'This is the day that the lord has made. We will rejoice!',
     path: '/programs/444',
   },

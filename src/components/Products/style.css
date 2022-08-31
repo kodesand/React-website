@@ -20,3 +20,23 @@
   /* background-color: var(--color-secodary); */
   color: var(--color-gray-600);
 }
+
+.card .img {
+  width: 8rem;
+  height: 5rem;
+  background-color: var(--color-primary);
+  color: var(--color-gray-100);
+  font-size: 1.5rem;
+  padding: 0.8rem;
+  display: grid;
+  place-items: center;
+  margin-bottom: 1.5rem;
+  margin-inline: auto;
+  border-radius: 1rem;
+  transition: var(--transition);
+}
+
+.card:hover .img {
+  background-color: var(--color-secondary);
+  color: var(--color-gray-600);
+}
