@@ -16,6 +16,8 @@
   transition: var(--transition);
   padding: 2rem;
   border-radius: 1.5rem;
+  display: grid;
+  place-items: center;
 }
 
 .contact__wrapper a:hover {

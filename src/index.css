@@ -85,7 +85,7 @@ img {
 }
 .btn.sm {
   padding: 0.4rem 1.2rem;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 .btn.sm:hover {
   background-color: var(--color-gray-400);
