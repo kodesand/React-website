@@ -20,7 +20,7 @@
 }
 
 .header__container-bg img {
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 
 .header__content {
@@ -29,6 +29,10 @@
   margin: 0 auto;
   text-align: center;
   color: var(--color-gray-100);
+  /* background-color: black;
+  opacity: 0.8;
+  border-radius: 1rem;
+  padding: 1rem; */
 }
 
 .header__content h2 {

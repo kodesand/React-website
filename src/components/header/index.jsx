@@ -8,8 +8,8 @@ const Header = ({ title, image, children }) => {
           <img src={image} alt='Header Background Image' />
         </div>
         <div className='header__content'>
-          <h2>{title}</h2>
-          <p>{children}</p>
+          {/* <h2>{title}</h2> */}
+          {/* <p>{children}</p> */}
         </div>
       </div>
     </header>
