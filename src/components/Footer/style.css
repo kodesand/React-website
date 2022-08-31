@@ -21,8 +21,8 @@ footer {
 
 .permalinks {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 6rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
 }
 
 .footer__container article p {

@@ -7,7 +7,7 @@ import './style.css'
 
 const FAQs = () => {
   return (
-    <section className='faqs'>
+    <section className='faqs' id='faqs'>
       <div className='container faqs__container'>
         <SectionHeader icon={<FaQuestion />} title='FAQs' />
         <div className='faqs__wrapper'>
