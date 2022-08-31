@@ -1,30 +1,30 @@
-.programs {
+.products {
   margin-top: 4rem;
 }
 
-.programs__wrapper {
+.products__wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 3rem;
   margin-top: 4rem;
 }
 
-.programs__program a {
+.products__product a {
   margin-top: 2.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.programs__program:hover a {
-  /* background-color: var(--color-secodary); */
+.products__program:hover a {
+  /* background-color: var(--color-white); */
   color: var(--color-gray-600);
 }
 
 .card .img {
   width: 8rem;
   height: 5rem;
-  background-color: var(--color-primary);
+  /* background-color: var(--color-white); */
   color: var(--color-gray-100);
   font-size: 1.5rem;
   padding: 0.8rem;
@@ -37,6 +37,6 @@
 }
 
 .card:hover .img {
-  background-color: var(--color-secondary);
+  /* background-color: white; */
   color: var(--color-gray-600);
 }

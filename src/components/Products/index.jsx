@@ -5,18 +5,18 @@ import { AiFillCaretRight } from 'react-icons/ai'
 
 import SectionHeader from '@/components/sectionHeader/'
 import Card from '@/UI/card/index'
-import programs from './data'
+import products from './data'
 import './style.css'
 
 const Products = () => {
   return (
-    <section className='programs'>
-      <div className='container programs__container'>
+    <section className='products'>
+      <div className='container products__container'>
         <SectionHeader icon={<MdProductionQuantityLimits />} title='Products' />
-        <div className='programs__wrapper'>
-          {programs.map(({ image, id, info, title, path }) => {
+        <div className='products__wrapper'>
+          {products.map(({ image, id, info, title, path }) => {
             return (
-              <Card className='programs__program' key={id}>
+              <Card className='products__product' key={id}>
                 <div className='img'>
                   <img src={image} alt={name} />
                 </div>
