@@ -1,15 +1,15 @@
 .products__container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr;
   gap: 4rem;
 }
 /* media queries (medium screen) */
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .products__container {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 2.5rem;
   }
-}
+} */
 
 /* media queries (small screen) */
 @media screen and (max-width: 600px) {
@@ -18,7 +18,7 @@
     gap: 2rem;
   }
   .card.product {
-    width: 90%;
+    width: 80%;
     margin-inline: auto;
   }
 }

@@ -3,7 +3,7 @@ import { AiOutlineTwitter } from 'react-icons/ai'
 import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa'
 
 import Header from '@/components/Header'
-import HeaderImage from '/images/header_bg_5.jpg'
+import HeaderImage from '/images/header_bg_5.png'
 import products from './data.js'
 import './products.css'
 import Product from '@/components/Product'
@@ -18,19 +18,14 @@ const Products = () => {
       </Header>
       <section className='products'>
         <div className='container products__container'>
-          {products.map(({ id, image, name, job, socials }) => {
+          {products.map(({ id, image, name, price, link }) => {
             return (
               <Product
                 key={id}
                 image={image}
                 name={name}
-                job={job}
-                socials={[
-                  { icon: <BsInstagram />, link: socials[0] },
-                  { icon: <AiOutlineTwitter />, link: socials[1] },
-                  { icon: <FaFacebookF />, link: socials[2] },
-                  { icon: <FaLinkedinIn />, link: socials[3] },
-                ]}
+                price={price}
+                link={link}
               ></Product>
             )
           })}
