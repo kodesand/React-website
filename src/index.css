@@ -13,9 +13,11 @@
 :root {
   --primary-hue: 210;
   --gray-hue: 240;
-  --color-primary: hsl(var(--primary-hue), 100%, 50%);
+  /* --color-primary: hsl(var(--primary-hue), 100%, 50%); */
+  --color-primary: #333;
   --color-primary-variant: hsl(var(--primary-hue), 100%, 65%);
-  --color-secondary: #ffb116;
+  --color-secondary: #2997ff;
+  --color-white: #f5f5f7;
   --color-gray-100: hsl(var(--gray-hue), 47%, 95%);
   --color-gray-200: hsl(var(--gray-hue), 26%, 75%);
   --color-gray-300: hsl(var(--gray-hue), 24%, 64%);
@@ -32,10 +34,11 @@
 /* general styles */
 body {
   font-family: 'Montserrat', sans-serif;
-  color: var(--color-gray-200);
+  color: var(--color-gray-600);
   line-height: 1.7;
   overflow-x: hidden;
-  background: var(--color-gray-600) url('/images/bg_texture.png');
+  /* background: var(--color-gray-600) url('/images/bg_texture.png'); */
+  background: var(--color-white);
 }
 .container {
   width: var(--container-width-lg);
@@ -48,7 +51,7 @@ h3,
 h4,
 h5 {
   line-height: 1.2;
-  color: var(--color-gray-100);
+  color: var(--color-gray-600);
 }
 h1 {
   font-size: 3rem;
@@ -66,20 +69,24 @@ img {
 }
 
 .btn {
-  color: var(--color-gray-100);
+  color: var(--color-secondary);
   width: fit-content;
-  margin: 0 auto;
-  padding: 0.9rem 2rem;
-  background-color: var(--color-primary);
+  /* margin: 0 auto; */
+  /* padding: 0.9rem 2rem; */
+  /* background-color: var(--color-primary); */
   border-radius: 1.5rem;
   transition: var(--transition);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
 }
 .btn:hover {
-  background-color: var(--color-secondary);
-  color: var(--color-gray-600);
+  /* background-color: var(--color-secondary); */
+  /* color: var(--color-gray-600); */
+  text-decoration: underline;
 }
 .btn.lg {
-  padding: 1.2rem 3rem;
+  /* padding: 1.2rem 3rem; */
   border-radius: 2rem;
   font-size: 1.1rem;
 }

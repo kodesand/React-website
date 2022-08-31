@@ -1,4 +1,6 @@
 import React from 'react'
+import { AiFillCaretRight } from 'react-icons/ai'
+
 import { Link } from 'react-router-dom'
 
 import Image from '/images/main_header.png'
@@ -16,7 +18,7 @@ const MainHeader = () => {
             consectetur?
           </p>
           <Link to='/plans' className='btn lg'>
-            Get Started
+            Get Started <AiFillCaretRight />
           </Link>
         </div>
         <div className='main__header-right'>

@@ -21,11 +21,12 @@
 
 .main__header-left h4 {
   margin-bottom: 1rem;
-  color: var(--color-secondary);
-  font-weight: 400;
+  color: var(--color-primary);
+  font-weight: 500;
 }
 .main__header-left p {
-  margin: 1rem 0 3.5rem;
+  /* margin: 1rem 0 3.5rem; */
+  margin-bottom: 2rem;
   font-size: 1.1rem;
 }
 
@@ -39,7 +40,8 @@
   height: 25rem;
   background: linear-gradient(75deg, var(--color-primary), transparent);
   border-radius: 50%;
-  filter: blur(15px);
+  /* filter: blur(15px); */
+  filter: blur(55px);
   position: absolute;
   transition: var(--transition);
 }
