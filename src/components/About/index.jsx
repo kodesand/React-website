@@ -1,13 +1,13 @@
-import Image from '/images/values.jpg'
 import SectionHeader from '@/components/SectionHeader'
-import { GiCutDiamond } from 'react-icons/gi'
+import { BsPersonCircle } from 'react-icons/bs'
 import { SiOpenaigym } from 'react-icons/si'
 
 import Card from '@/UI/Card'
 import values from './data.js'
+import Image from '/images/values.png'
 import './style.css'
 
-const Values = () => {
+const About = () => {
   return (
     <section className='values'>
       <div className='container values__container'>
@@ -17,11 +17,8 @@ const Values = () => {
           </div>
         </div>
         <div className='values__right'>
-          <SectionHeader icon={<GiCutDiamond />} title='Values' />
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias,
-            voluptatum!
-          </p>
+          <SectionHeader icon={<BsPersonCircle />} title='About' />
+          <p> Ricardo G. Bernardo (RGB) - owner of RGB LeatherCrafts</p>
           <div className='values__wrapper'>
             {values.map(({ id, title, desc }) => {
               return (
@@ -41,4 +38,4 @@ const Values = () => {
   )
 }
 
-export default Values
+export default About

@@ -1,6 +1,6 @@
 import MainHeader from '@/components/MainHeader'
 import Products from '@/components/Products'
-import Values from '@/components/Values'
+import About from '@/components/About'
 import FAQs from '@/components/FAQs'
 import Testimonials from '@/components/Testimonials'
 
@@ -11,7 +11,7 @@ const Home = () => {
     <>
       <MainHeader />
       <Products />
-      <Values />
+      <About />
       <FAQs />
       <Testimonials />
     </>
