@@ -17,6 +17,6 @@
 }
 
 .programs__program:hover a {
-  background-color: var(--color-secodary);
+  /* background-color: var(--color-secodary); */
   color: var(--color-gray-600);
 }

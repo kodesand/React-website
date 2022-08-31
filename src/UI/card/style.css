@@ -9,8 +9,9 @@
 
 .card:hover {
   background-color: transparent;
-  border: var(--color-gray-400);
+  /* border-color: var(--color-gray-400); */
   cursor: default;
+  border: 2px solid var(--color-gray-400);
 }
 
 .card span {
