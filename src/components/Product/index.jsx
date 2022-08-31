@@ -2,15 +2,15 @@ import Card from '@/UI/card'
 
 import './style.css'
 
-const Trainer = ({ image, name, job, socials }) => {
+const Product = ({ image, name, job, socials }) => {
   return (
-    <Card className='trainer'>
-      <div className='trainer__img'>
+    <Card className='product'>
+      <div className='product__img'>
         <img src={image} alt={name} />
       </div>
       <h3>{name}</h3>
       <p>{job}</p>
-      <div className='trainer__socials'>
+      <div className='product__socials'>
         {socials.map(({ icon, link }, index) => {
           return (
             <a key={index} href={link} target='_blank' rel='noreffer noopener'>
@@ -23,4 +23,4 @@ const Trainer = ({ image, name, job, socials }) => {
   )
 }
 
-export default Trainer
+export default Product

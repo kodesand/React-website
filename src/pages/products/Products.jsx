@@ -4,23 +4,23 @@ import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa'
 
 import Header from '@/components/Header'
 import HeaderImage from '/images/header_bg_5.jpg'
-import trainers from './data.js'
-import './trainers.css'
-import Trainer from '@/components/Trainer'
+import products from './data.js'
+import './products.css'
+import Product from '@/components/Product'
 
-const Trainers = () => {
+const Products = () => {
   return (
     <>
-      <Header title='Our Trainers' image={HeaderImage}>
+      <Header title='Our Products' image={HeaderImage}>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere neque
         assumenda natus cupiditate commodi similique accusamus nemo temporibus
         debitis aperiam.
       </Header>
-      <section className='trainers'>
-        <div className='container trainers__container'>
-          {trainers.map(({ id, image, name, job, socials }) => {
+      <section className='products'>
+        <div className='container products__container'>
+          {products.map(({ id, image, name, job, socials }) => {
             return (
-              <Trainer
+              <Product
                 key={id}
                 image={image}
                 name={name}
@@ -31,7 +31,7 @@ const Trainers = () => {
                   { icon: <FaFacebookF />, link: socials[2] },
                   { icon: <FaLinkedinIn />, link: socials[3] },
                 ]}
-              ></Trainer>
+              ></Product>
             )
           })}
         </div>
@@ -40,4 +40,4 @@ const Trainers = () => {
   )
 }
 
-export default Trainers
+export default Products
