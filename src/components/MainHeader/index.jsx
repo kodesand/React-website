@@ -8,8 +8,8 @@ const MainHeader = () => {
     <header className='main__header'>
       <div className='container main__header-container'>
         <div className='main__header-left'>
-          <h4>#100DaysOfWorkout</h4>
-          <h1>Join The Legends Of The Fitness World</h1>
+          <h4>#tatakRGB</h4>
+          <h1>RGB LeatherCrafts</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione a
             odit sed delectus officia magni est molestiae vitae facere
